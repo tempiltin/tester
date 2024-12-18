@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Xarita bilan ishlash</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 h-screen flex flex-col">
+  <!-- Header -->
+  <header class="bg-blue-500 text-white text-center py-3 shadow-md">
+    <h1 class="text-lg font-bold">Google Map App Xaritasi</h1>
+  </header>
+  <!-- Map Section -->
+  <main class="flex-1">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d752.3306999568961!2d67.00564735696162!3d39.65914730123625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4d18d1b7cb6777%3A0xee8a5f918bec807b!2sToshkent%20Axborot%20Texnologiyalari%20Universiteti%20Samarqand%20Filiali%20Kompyuter%20injiniringi%20fakulteti!5e1!3m2!1sen!2s!4v1734546382150!5m2!1sen!2s" width="600" height="450" 
+      class="w-full h-full" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy">
+    </iframe>
+  </main>
+
+  <!-- Bottom Navigation Bar -->
+  <nav class="bg-white shadow-md fixed bottom-0 w-full flex justify-around items-center border-t border-gray-200">
+    <button class="flex flex-col items-center text-gray-600 hover:text-blue-500 py-2">
+      <svg class="w-6 h-6 mb-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h11M9 21v-6m-4 4h6m9-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v10" />
+      </svg>
+      <span class="text-xs">Home</span>
+    </button>
+    <button class="flex flex-col items-center text-gray-600 hover:text-blue-500 py-2">
+      <svg class="w-6 h-6 mb-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 7V3m-4 4a4 4 0 110-8h8a4 4 0 110 8h-8zm-2 0h12m4 0h4M4 21h16" />
+      </svg>
+      <span class="text-xs">Explore</span>
+    </button>
+    <button class="flex flex-col items-center text-gray-600 hover:text-blue-500 py-2">
+      <svg class="w-6 h-6 mb-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c-1.886 0-3.5 1.79-3.5 4h7c0-2.21-1.614-4-3.5-4zm-5.5 4h11a2.5 2.5 0 01-5 0H5a2.5 2.5 0 01-5 0h2a2.5 2.5 0 015 0z" />
+      </svg>
+      <span class="text-xs">Profile</span>
+    </button>
+  </nav>
+</body>
+</html>
